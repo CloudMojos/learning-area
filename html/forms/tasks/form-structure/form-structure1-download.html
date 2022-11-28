@@ -15,22 +15,48 @@
       * {
         box-sizing: border-box;
       }
+
+      label {
+        display: block
+      }
+
+      .form-div {
+        position: relative;
+        list-style-type: none;
+        margin-left: -40px;
+      }
     </style>
   </head>
 
   <body>
     <form>
-      Name:
-      <input type="text" id="name" name="name">
+      <fieldset>
+        <legend>Personal Detail</legend>
+        <ul>
+          <li class="form-div">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+          </li>
+          <li class="form-div">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age">
+          </li>
+        </ul>
+      </fieldset>
 
-      Age:
-      <input type="number" id="age" name="age">
-
-      Comment:
-      <input type="text" id="comment" name="comment">
-
-      Email:
-      <input type="email" id="email" name="email">
+      <fieldset>
+        <legend>Comment information</legend>
+        <ul>
+          <li class="form-div">
+            <label for="comment">Comment:</label>
+            <input type="text" id="comment" name="comment">
+          </li>
+          <li class="form-div">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+          </li>
+        </ul>
+      </fieldset>
     </form>
   </body>
 

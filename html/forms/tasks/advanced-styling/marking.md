@@ -6,9 +6,9 @@ The aim of the tasks is to demonstrate an understanding of the features covered 
 
 In our first advanced styling tasks, we want you to handle making a search input as consistent as possible across browsers — a trickier task than with standard text inputs, even on modern browsers.
 
-We've already provided you with a basic reset to build upon. 
+We've already provided you with a basic reset to build upon.
 
-1. First of all, try giving the search box a consistent width, height, padding, and border color across browsers. This is pretty self-explanatory; `line-height` tends to work better than `height` for keeping a consistent height in which the input text is vertically-centered. 
+1. First of all, try giving the search box a consistent width, height, padding, and border color across browsers. This is pretty self-explanatory; `line-height` tends to work better than `height` for keeping a consistent height in which the input text is vertically-centered.
 2. You'll find that some browsers will not behave in terms of the form element's height. This is due to native OS styling being used in some cases. How can you remove this native styling? The answer here is `-webkit-appearance: none;`.
 3. Once you've removed the native styling, you'll need to add back one of the features it was providing, to keep same look and feel we originally had. How do you do this? Answer: rounded corners! We need `border-radius`.
 4. One thing that is inconsistent across browsers (particularly looking at Safari here) is the position of the standard blue focus outline. How can you remove this? Answer: `outline: none;`
@@ -73,7 +73,7 @@ form {
 
 In our next task we provide you with a set of three radio buttons. We want you to give them custom styling.
 
-We've already provided you with a basic reset to build upon. 
+We've already provided you with a basic reset to build upon.
 
 1. First of all, get rid of their default styling. Again, `-webkit-appearance: none;` is what you need here.
 2. Next, give the radio buttons a reasonable base style — the style they have when the page first loads. This can be anything you like, but you probably want to set a width and height (of somewhere between about 18 and 24 pixels), and a subtle border and/or background color.
